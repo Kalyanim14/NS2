@@ -1,0 +1,14 @@
+sudo  gedit  /etc/apt/sources.list
+
+
+deb http://in.archive.ubuntu.com/ubuntu bionic main universe
+
+sudo  apt  update
+
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
+
+sudo apt update
+
+sudo  apt-get  install  build-essential  autoconf  automake  libxmu-dev 
+
+sudo  apt  install  gcc-4.8  g++-4.8
